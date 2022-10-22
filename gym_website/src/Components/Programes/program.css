@@ -1,0 +1,83 @@
+.programs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.program-header {
+  display: flex;
+  gap: 5rem;
+  font-weight: bold;
+  font-size: 3rem;
+  justify-content: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+/* rogram Catagories */
+
+.program-catagories {
+  display: flex;
+  gap: 1rem;
+}
+
+.catagory {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  padding: 2rem;
+  gap: 1rem;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.catagory > :nth-child(1) {
+  width: 2rem;
+  height: 2rem;
+  fill: #fff;
+}
+
+.catagory > :nth-child(2) {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.catagory > :nth-child(3) {
+  font-size: 0.9rem;
+  line-height: 25px;
+}
+
+.join-now {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.join-now > .arrow-image > img {
+  width: 1rem;
+}
+
+.catagory:hover{
+    background: var(--planCard);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px){
+  .program-header{
+    flex-direction: column;
+    gap: 1rem;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .program-catagories{
+    flex-direction: column;
+  }
+
+  
+}
