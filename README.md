@@ -46,8 +46,18 @@ This is a simple gymwebsite. It is a Dynamic website where I have used little bi
 # Demo Link : 
 https://sudev-youtube-clone.netlify.app
 
-#ScreenShots :
+# ScreenShots :
+<img width="1680" alt="Screenshot 2023-01-02 at 10 22 59 PM" src="https://user-images.githubusercontent.com/80485464/210260021-440ec759-1791-40b3-be24-dadc600430cd.png">
 
+
+# Tech Stack : 
+
+React js
+Email Js
+Youtube API
+
+# About This App : 
+This is a clone of Youtube.com. It is a Dynamic website where I have used little bit animations. Here A user can search for any videos on youtube.
 
 
 
